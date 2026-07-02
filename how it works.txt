@@ -1,0 +1,23 @@
+how it works
+1. on the device
+2. ESP32 starts hotspot: then check wifi and connect to
+   Attendance_Device_Setup
+   Password: 12345678
+3. type this ip: http://192.168.4.1 on browser
+4. Enter:
+   WiFi name
+   WiFi password
+   API Base URL
+   API Key
+   Device Code
+5. Click Save Settings.
+
+6. ESP32 restarts and connects automatically.
+7.connect your system to the same network with the device
+
+Normal buttons:
+- 1 click GPIO20 = Fingerprint attendance
+- 2 clicks GPIO20 = RFID attendance
+- Hold GPIO20 = Dashboard
+- In dashboard, 1 click = Device capture mode
+- In dashboard, hold 10 seconds = Reset saved settings

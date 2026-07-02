@@ -1,0 +1,3 @@
+<?php
+define("ESP32_API_KEY", "CHANGE_THIS_SECRET_KEY_12345");
+?>
